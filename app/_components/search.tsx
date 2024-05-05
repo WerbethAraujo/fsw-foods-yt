@@ -5,7 +5,10 @@ import { Input } from "./ui/input";
 const Search = () => {
   return (
     <div className="flex gap-4">
-      <Input placeholder="Buscar Rango..." className="border-none" />
+      <Input
+        placeholder="Buscar Rango..."
+        className="border-none outline-none"
+      />
       <Button>
         <SearchIcon size="icon" />
       </Button>
